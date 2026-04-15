@@ -2,8 +2,7 @@
 name: stock-socratic
 description: >-
   苏格拉底式股票认知评价——通过三问法深挖用户对公司认知深度，一次性全网交叉验证认知准确性，给出四维度评分和认知定级，产出认知评价报告。
-  触发词：分析股票、股票认知、投资认知评估、这家公司怎么样、该不该买、为什么买、认知评价、
-  三问法、苏格拉底式投资、股票分析对话、投资面谈、认知深度、懂不懂这家公司
+  触发词：用苏格拉底股票认知方法分析、苏格拉底股票认知、股票认知分析、认知评价分析
 description_zh: "苏格拉底式股票认知评价：三问法深挖认知 → 全网交叉验证 → 认知评分报告"
 description_en: "Socratic stock cognition assessment: 3-question deep dive → cross-validation → cognition scoring report"
 version: 1.0.0
@@ -37,13 +36,18 @@ changelog-url: https://raw.githubusercontent.com/fatliuwei/stock-socratic/main/C
 
 ## When to Use / 触发场景
 
-- 用户说"分析一下XX股票""帮我看看XX公司"
-- 用户说"这家公司该不该买""我想买XX，你觉得呢"
-- 用户说"我看好XX，帮我评估一下"
-- 用户说"分析股票""股票认知评估""认知评价"
-- 任何涉及"我看好某只股票，想讨论一下"的场景
+**主要触发方式**：
+- 用户说"用苏格拉底股票认知方法分析一下XX股票"
+- 用户说"用苏格拉底方法分析XX"
+- 用户说"对XX进行股票认知分析"
 
-**不触发**：纯数据查询（"查一下茅台PE"）→ 引导用户使用 neodata-financial-search
+**次要触发方式**：
+- 用户说"帮我评估一下对XX公司的认知深度"
+- 用户说"我想检验一下我对XX公司的理解程度"
+
+**不触发**：
+- 纯数据查询（"查一下茅台PE"）→ 引导用户使用 neodata-financial-search
+- 普通股票分析请求（"分析一下茅台"）→ 引导用户使用 trading-analysis 或明确说"用苏格拉底方法"
 
 ---
 
